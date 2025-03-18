@@ -9,8 +9,14 @@ e milímetros.
 '''
 
 #Entrada de dados pelo usuário
-valor = float(input('Digite um valor (metros): '))
+valor = float(input('Digite uma distância (metros): '))
 
 #Exibição do resultado
-print('{} metros são {} centímetros.'.format(valor, valor*100))
-print('{} metros são {} milímetros.'.format(valor, valor*1000))
+print('A medida de {}m corresponde a:'.format(valor))
+print('{} km.'.format(valor/1000))
+print('{} hm.'.format(valor/100))
+print('{} dam.'.format(valor/10))
+print('{} dm.'.format(valor*10))
+print('{} cm.'.format(valor*100))
+print('{} mm.'.format(valor*1000))
+

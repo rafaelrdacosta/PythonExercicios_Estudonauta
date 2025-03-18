@@ -21,4 +21,5 @@ area = largura * altura
 tinta = area/2
 
 #Exibição do resultado
-print("Será necessário {}l de tinta para pintar a parede.".format(tinta))
+print('Sua parede tem a dimensão de {} x {} e sua área é de {:.2f}m².'.format(largura, altura, area))
+print("Para pintar essa parede, você precisará de {:.2f}l de tinta.".format(tinta))

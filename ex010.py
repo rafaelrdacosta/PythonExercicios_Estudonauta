@@ -11,10 +11,10 @@ US$ 1.00 = R$ 3.27
 '''
 
 #Entrada de dados pelo usuário
-real = float(input('Quanto em R$ você tem: '))
+real = float(input('Quanto você tem na carteira: R$ '))
 
 #Cálculo do câmbio
 dolar = real/3.27
 
 #Exibição do resultado
-print('R$ {:.2f} equivalem a US$ {:.2f} dólares.'.format(real, dolar))
+print('R$ {:.2f} equivalem a US$ {:.2f}.'.format(real, dolar))

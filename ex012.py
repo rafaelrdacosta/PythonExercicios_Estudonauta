@@ -12,7 +12,7 @@ desconto.
 preco = float(input('Qual o preço do produto? R$ '))
 
 #Cálculo do desconto
-preco_d = 0.95*preco
+n_preco = 0.95*preco
 
 #Exibição do resultado
-print('O valor do produto com 5% de desconto é R$ {:.2f}.'.format(preco_d))
+print('O valor do produto com 5% de desconto é R$ {:.2f}.'.format(n_preco))
