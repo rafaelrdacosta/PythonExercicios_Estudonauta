@@ -14,3 +14,7 @@ n = random.random()
 print(n)
 a = random.randint(1, 10)
 print(a)
+
+#bibliotecas externas python.org
+import emoji
+print(emoji.emojize("Olá, Mundo!🌎"))
